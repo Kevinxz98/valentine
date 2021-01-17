@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<html lang="es">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="slick/slick.css">
+  	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/hamburgers.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	
+	<?php>
+	<title>Valentine Shop</title>
+</head>
+<body onload="inicializar()">
+	<header>
+		<nav>
+			<div id="hamburger" class="hamburger hamburger--arrow">
+   				<div class="hamburger-box">
+    				<div class="hamburger-inner"></div>
+   				</div>
+  			</div>
+			<a href=""><img class="logo2" src="imagenes/logo2.png"></a>
+			<a href=""><img class="logo" src="imagenes/logo.png"></a>
+			<ul>
+				<li><a href="#"><i class="fas fa-concierge-bell"></i> Productos</a></li>
+				<li><a href="#"><i class="fas fa-wallet"></i> Vende en Valentine</a></li>
+				<li><a href="#"><i class="fas fa-headset"></i> Contactenos</a></li>
+			</ul>
+			<div id="ctn-icon-search">
+			<i class="fas fa-search" id="icon-search"></i>
+		</div>
+		<div id="ctn-bars-search">
+		<input type="text" id="inputSearch" placeholder="Busca Productos">
+	</div>
+		</nav>
+		<div class="bNav">
+			<div class="categorias_pricipales">
+				<ul id="categorias_pricipales_ul" class="categorias_pricipales_ul"><p id="BtnCat">Categorías <i id="fa-arrow-up" class="fas fa-arrow-up"></i></p>
+					<section id="lista_de_categorias" class="lista_de_categorias">
+						<li><a href="#" data-order="0">Tecnología</a></li>
+						<li><a href="#" data-order="1">Hogar Y Electrodomesticos</a></li>
+						<li><a href="#" data-order="2">Belleza Y Estética</a></li>
+						<li><a href="#" data-order="4">Juguetería</a></li>
+						<li><a href="#" data-order="5">Herramientas</a></li>
+						<li><a href="#" data-order="6">Accesorios Para Vehículos</a></li>
+					</section>
+				</ul>
+			</div>
+			<!--<div class="ofertas_pricipales">
+				<ul><p>Ofertas:</p>
+					<li>Del Día <i class="fas fa-calendar-day"></i></li>
+					<li>De la Semana <i class="fas fa-calendar-minus"></i></li>
+					<li>Del Mes <i class="fas fa-calendar-alt"></i></li>
+				</ul>
+			</div>--->
+			<div class="ayuda">
+				<p>Ayuda</p>
+			</div>
+		</div>
+		
+	</header>
+
+	<ul id="box-search">
+		<li><a href="#"><i class="fas fa-history"></i>Peluches</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>Decoracion</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>Bicicletas</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>perfumes</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>pestañina</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>maquillaje</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>chocolates</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>licores</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>juguetes</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>teclados</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>comida</a></li>
+		<li><a href="#"><i class="fas fa-history"></i>pads</a></li>
+	</ul>
+
+	<div id="cover-ctn-search">
+		
+	</div>
+
+
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="imagenes/slider1.jpg">
+				<section class="flex-caption"></section>
+			</li>
+			<li>
+				<img src="imagenes/slider2.jpg">
+				<section class="flex-caption"></section>
+			</li>
+			<li>
+				<img src="imagenes/slider3.jpg">
+				<section class="flex-caption"></section>
+			</li>														
+		</ul>
+	</div>	
+
+	<div class="imgCatCS">
+		<a href="#"><img src="imagenes/catCel.jpg"></a>
+		<a href="#"><img src="imagenes/catSon.jpg"></a>
+	</div>
+
+	<article class="productos_destacados">
+		<p>PRODUCTOS DESTACADOS</p>
+	</article>
+
+
+	<section class="slickSlider slider">
+
+		<!--1-->
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/teclado-mouse.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36; 44.990</p><p class="Valor"> &#36; 39.900 </p> 
+   			</div>
+
+   			<div class="desImgSlider">
+   				<p>Teclado Mouse Táctil Inalámbrico </p>
+   			</div>
+   			<i class="fas fa-shipping-fast"></i>
+   		</a>
+
+    </div>
+
+   		<!--2-->
+
+   	<div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/radio-de-bolsillo.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36; 54.990</p><p class="Valor"> &#36; 44.990 </p> 
+   			</div>
+
+   			<div class="desImgSlider">
+   				<p>Radio De Bolsillo 2 Bandas R106 </p>
+   			</div>
+   			<i class="fas fa-shipping-fast"></i>
+   		</a>
+
+    </div>
+
+
+    <!--3-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/teclado-mouse-inalambrico.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36; 105.000</p><p class="Valor"> &#36; 89.900 </p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Teclado Mouse inalambrico + pad </p>
+	 			<i class="fas fa-shipping-fast"></i> 
+			</div>
+		</a>
+
+    </div>
+
+    <!--4-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/consola-nintendo-super-mini-sfc-620.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;108.153</p><p class="Valor"> &#36;85.700</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Consola Nintendo Super Mini Sfc 620 Juegos </p>
+	 			<i class="fas fa-shipping-fast"></i> 
+			</div>
+		</a>
+
+    </div>
+
+    <!--4-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/parlante-bluetooth-altavoz-bull-dog.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;89.900</p><p class="Valor"> &#36;75.600</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Parlante Bluetooth Altavoz Bafle Speaker Bulldog Recargable </p>
+	 			<i class="fas fa-shipping-fast"></i> 
+			</div>
+		
+</a>
+    </div>
+
+    <!--4-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	
+		<a href="#">
+    		<div class="imgCatSlider">
+    			<img src="imagenes/Audífonos-Bluetooth-Deportivos-R1-Micrófono-5-Horas-Potente.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;76.000</p><p class="Valor"> &#36;50.000</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Audífonos Bluetooth Deportivos R1 Micrófono</p>
+	 			<i class="fas fa-shipping-fast"></i> 
+			</div>
+		
+		</a>
+    </div>
+
+  </section>
+
+  <article class="slider-hogar">
+		<p>PRODUCTOS PARA TU HOGAR</p>
+	</article>
+	
+	<section class="slickSlider slider">
+
+		<!--1-->
+
+		<div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/Escritorio-120-Vilna-Blanco.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;290.000</p><p class="Valor"> &#36;259.900</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Escritorio 120 Vilna (1c) Rovere/ Blanco</p>
+	 			<i class="fas fa-shipping-fast"></i> 
+			</div>
+		</a>
+
+    </div>
+
+    <!--2-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/atomizador.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;11.200</p><p class="Valor"> &#36;9.500</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Atomizador Plástico De 500 Ml</p> 
+			</div>
+		</a>
+
+    </div>
+
+    <!--3-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/tapete-desinfectante.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;50.000</p><p class="Valor"> &#36;46.000</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Tapete Desinfectante Dúo Econo</p> 
+   				<i class="fas fa-shipping-fast"></i>
+			</div>
+		</a>
+
+    </div>
+
+    <!--4-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/tensod-de-sabanas.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;15.000</p><p class="Valor"> &#36;12.600</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Tensor De Sabanas,tendidos, Sujetador.</p> 
+   				
+			</div>
+		</a>
+
+    </div>
+
+    <!--4-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/camara-lp-wifi-seguridad.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;110.000</p><p class="Valor"> &#36;94.900</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Cámara Ip Wifi Seguridad Vision Noct 360° + Obs</p> 
+   				<i class="fas fa-shipping-fast"></i>
+			</div>
+		</a>
+
+    </div>
+
+    <!--5-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/cinta-led-rgb.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg">&#36;70.000</p><p class="Valor"> &#36;57.900</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Cinta Led Rgb 5050 Multicolor</p> 
+   				<i class="fas fa-shipping-fast"></i>
+			</div>
+		</a>
+
+    </div>
+
+    <!--5-->
+
+    <div class="slider-cont-img-des"> 
+    	<i class="fas fa-shopping-cart"></i>
+    	<a href="#">
+
+    		<div class="imgCatSlider">
+    			<img src="imagenes/panel-led-18w-sobreponer.jpg">
+    		</div>
+
+    		<div class="valImgSlider">
+    			<p class="valorNeg"></p><p class="Valor"> &#36;17.500</p> 
+   			</div>
+
+   			
+   			<div class="desImgSlider"> <p>Panel Led 18w Sobreponer Luz Blanca</p> 
+   				<i class="fas fa-shipping-fast"></i>
+			</div>
+		</a>
+
+    </div>
+
+	</section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.js" type="text/javascript"></script>
+  <script src="js/slickSlider.js"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="js/estilos.js"></script>
+  
+</body>
+</html>
